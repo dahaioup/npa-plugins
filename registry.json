@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-26T11:25:00Z",
+  "plugins": [
+    {
+      "id": "npa-remote",
+      "name": "NPA Remote Desktop",
+      "version": "0.2.0",
+      "description": "NPA 远程桌面插件：屏幕截图（VP8/JPEG）、键鼠注入（Windows 物理按键 / Linux uinput）、剪贴板、桌面与屏幕信息。",
+      "kind": "plugin",
+      "capabilities": [
+        "desktop.screens",
+        "desktop.screenshot",
+        "desktop.mouse_move",
+        "desktop.mouse_click",
+        "desktop.mouse_scroll",
+        "desktop.type",
+        "desktop.hotkey",
+        "desktop.info",
+        "desktop.clipboard_get",
+        "desktop.clipboard_set",
+        "desktop.read"
+      ],
+      "homepage": "https://github.com/dahaioup/npa-remote",
+      "install": {
+        "dir": "plugins",
+        "executable": "npa-remote"
+      },
+      "artifacts": [
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.0/npa-remote-windows-amd64.exe",
+          "sha256": "17d5ea637255cf12b4b7dbc542800a2989a5a37645b39d70d2ac80e4b26c724e",
+          "size": 4689408,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.0/npa-remote-linux-arm64",
+          "sha256": "003f7ea4c8cd4557842a1c551e5915e2f5e1d160924babc678be63a3b6b6735f",
+          "size": 4237160,
+          "format": "binary"
+        },
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.0/npa-remote-darwin-x64",
+          "sha256": "1cf33bb5ab615370712d7b7a0b5b0b2ea14b1ada6792b5ba5964981bdefec992",
+          "size": 16321344,
+          "format": "binary"
+        }
+      ]
+    }
+  ]
+}
