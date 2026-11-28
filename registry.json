@@ -55,8 +55,8 @@
           "os": "darwin",
           "arch": "amd64",
           "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-darwin-amd64",
-          "sha256": "6d9ed4e29725f3d28252506e232bdb94539bb653658d2314d48dd9ca27001646",
-          "size": 6127632,
+          "sha256": "2d543418ab0a8aed1c95cc7779392490a4cd6eb9b60e0a2c04c8f79c81bc58b6",
+          "size": 6123536,
           "format": "binary"
         }
       ]
