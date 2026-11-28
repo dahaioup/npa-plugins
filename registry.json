@@ -31,24 +31,24 @@
           "os": "windows",
           "arch": "amd64",
           "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-windows-amd64.exe",
-          "sha256": "d0530c19bb78c851f62874ceffe333c861acacb80065ef61a883cb25f77ab0b4",
-          "size": 4752896,
+          "sha256": "c17744356c4dc4994f2470afa196dee3dc0a4193bd6355aad0122f3a2463950a",
+          "size": 4751872,
           "format": "binary"
         },
         {
           "os": "linux",
           "arch": "amd64",
           "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-linux-amd64",
-          "sha256": "54f9d82dd99c7236c4a70080dc5ea0e4aed924780dfacea8c2b2e8b8a2e3427c",
-          "size": 3686704,
+          "sha256": "86cf68c384703f2996778dc38f9c0af2aa44d4ac72f83208b34e73cf1b061220",
+          "size": 3683956,
           "format": "binary"
         },
         {
           "os": "linux",
           "arch": "arm64",
           "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-linux-arm64",
-          "sha256": "952559b8c24e028dc4d6336dcf16437908e25bfba0f1949ec4f29444d1920836",
-          "size": 4271816,
+          "sha256": "ed0d14b827f6d38c55cc2c4c65b130f2613330b2d72c42b6029023db8523a707",
+          "size": 3285116,
           "format": "binary"
         },
         {
