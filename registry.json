@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-28T01:32:59Z",
+  "updated_at": "2026-11-28T05:51:43Z",
   "plugins": [
     {
       "id": "npa-remote",
       "name": "NPA Remote Desktop",
-      "version": "0.2.1",
-      "description": "NPA 远程桌面插件：屏幕截图（VP8/JPEG）、键鼠注入（Windows 物理按键 / Linux uinput）、剪贴板、桌面与屏幕信息、屏幕文字识别；自带 HTTPS 服务与 MCP 端点（/mcp），可独立运行。",
+      "version": "0.3.0",
+      "description": "NPA 远程桌面插件：屏幕截图（VP8/JPEG）、键鼠注入（Windows 物理按键 / Linux uinput）、剪贴板、桌面与屏幕信息、屏幕文字识别；自带 HTTPS 服务与 MCP 端点（/mcp），插件自报 MCP 端点与参数设置页（/settings），可独立运行。",
       "kind": "plugin",
       "capabilities": [
         "desktop.screens",
@@ -30,25 +30,33 @@
         {
           "os": "windows",
           "arch": "amd64",
-          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.1/npa-remote-windows-amd64.exe",
-          "sha256": "519f2c601f77afd35b8ecab038e677ebe338ee7f71036dea58df459258cb2d6e",
-          "size": 4734464,
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-windows-amd64.exe",
+          "sha256": "d0530c19bb78c851f62874ceffe333c861acacb80065ef61a883cb25f77ab0b4",
+          "size": 4752896,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-linux-amd64",
+          "sha256": "54f9d82dd99c7236c4a70080dc5ea0e4aed924780dfacea8c2b2e8b8a2e3427c",
+          "size": 3686704,
           "format": "binary"
         },
         {
           "os": "linux",
           "arch": "arm64",
-          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.1/npa-remote-linux-arm64",
-          "sha256": "c4913ddc2e77ce18589dfac9d4eeed128bd0a395b96ea6f3cafe0bd6af5282a1",
-          "size": 4266692,
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-linux-arm64",
+          "sha256": "952559b8c24e028dc4d6336dcf16437908e25bfba0f1949ec4f29444d1920836",
+          "size": 4271816,
           "format": "binary"
         },
         {
           "os": "darwin",
           "arch": "amd64",
-          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.1/npa-remote-darwin-x64",
-          "sha256": "f316926a97fb281df21ce6c86fbaffef6a140ebbbaf149bb1725dfd122ca16eb",
-          "size": 16419880,
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.3.0/npa-remote-darwin-amd64",
+          "sha256": "7fdd09da04aae4309fb586903ecd6f9f934ff1f4f4ed9e71403fb9ec46aab477",
+          "size": 16465040,
           "format": "binary"
         }
       ]
