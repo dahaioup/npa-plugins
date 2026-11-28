@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-26T12:50:00Z",
+  "updated_at": "2026-11-28T01:24:44Z",
   "plugins": [
     {
       "id": "npa-remote",
@@ -49,6 +49,134 @@
           "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.2.1/npa-remote-darwin-x64",
           "sha256": "f316926a97fb281df21ce6c86fbaffef6a140ebbbaf149bb1725dfd122ca16eb",
           "size": 16419880,
+          "format": "binary"
+        }
+      ]
+    },
+    {
+      "id": "npa-obscura",
+      "name": "NPA Obscura Browser",
+      "version": "0.4.1-1795828723",
+      "description": "NPA 无头浏览器插件（obscura 引擎）：自带 MCP 服务（/mcp）、参数设置页与引擎安装器；提供 38 个 browser_* 工具（抓取、截图、DOM、脚本执行等）。",
+      "kind": "plugin",
+      "capabilities": [
+        "browser"
+      ],
+      "homepage": "https://github.com/dahaioup/npa-plugins",
+      "install": {
+        "dir": "plugins/browser",
+        "executable": "npa-obscura"
+      },
+      "artifacts": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-darwin-amd64",
+          "sha256": "40000aabbd765706a70aebe26502c929179feee4cd2f8d644d3b508340035fb4",
+          "size": 10037344,
+          "format": "binary"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-darwin-arm64",
+          "sha256": "a27c6d7fbd60d00d4cb61733daeebc34e911fc42510dc8d83cfb4ca7cf2bbd05",
+          "size": 9335202,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-linux-amd64",
+          "sha256": "fd4d16d8ff6a4dd153d288cc2b4d8f3f4e091a5d8827498efff7697cab6d945e",
+          "size": 9810080,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-linux-arm64",
+          "sha256": "9377d7eac6ab9d3c04059b6c6828694a1adedc26bd9ecfe7ee6d4b67966f75b9",
+          "size": 9109664,
+          "format": "binary"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-windows-amd64.exe",
+          "sha256": "f1d01868db4b74fde27c84d3a96a4d92a3ae6ee67ead6a679c2948ccc58219e1",
+          "size": 10067456,
+          "format": "binary"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-obscura-windows-arm64.exe",
+          "sha256": "8a68e57226c50d78701e34625430ceb51f18ac13ade9e061ef20c35697fab08c",
+          "size": 9171968,
+          "format": "binary"
+        }
+      ]
+    },
+    {
+      "id": "npa",
+      "name": "NPA",
+      "version": "0.4.1-1795828723",
+      "description": "NPA 本体（节点代理）：管理面、mesh 信令通道、通道数据面、MCP 服务。节点可用 upgrade.pull 从仓库拉取本体构件自更新。",
+      "kind": "core",
+      "capabilities": [],
+      "homepage": "https://github.com/dahaioup/npa-plugins",
+      "install": {
+        "dir": "bin",
+        "executable": "npa"
+      },
+      "artifacts": [
+        {
+          "os": "darwin",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-darwin-amd64",
+          "sha256": "ae5985f45a973818c6cebb1eba18cfc4f235ff39b76886ec360b9dbb042b9980",
+          "size": 15134592,
+          "format": "binary"
+        },
+        {
+          "os": "darwin",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-darwin-arm64",
+          "sha256": "7f1f18b59f8769f7ec011e04cf1e5cd39a4059edd5ecdb33c3dc395e39331098",
+          "size": 5455888,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-linux-amd64",
+          "sha256": "d3c35a039a3bf90b807cc180a63c9bfe7a37601e97fed9a4bce9049f04122afe",
+          "size": 5668164,
+          "format": "binary"
+        },
+        {
+          "os": "linux",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-linux-arm64",
+          "sha256": "c8b76f7f877ce587d7a0dbf82dbbab844cfdfef38e196a8ca093d0f38ca7441d",
+          "size": 4909520,
+          "format": "binary"
+        },
+        {
+          "os": "windows",
+          "arch": "amd64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-windows-amd64.exe",
+          "sha256": "ed3926ee7c99bb483f6e0c841ee67c33b29182b2d2a23228840c0072743776a2",
+          "size": 5827584,
+          "format": "binary"
+        },
+        {
+          "os": "windows",
+          "arch": "arm64",
+          "url": "https://github.com/dahaioup/npa-plugins/releases/download/v0.4.1-1795828723/npa-windows-arm64.exe",
+          "sha256": "1afc6036fe05c85b3aa9d148cad482a2a361f20e26ae0db641aa0548aa192217",
+          "size": 4982272,
           "format": "binary"
         }
       ]
